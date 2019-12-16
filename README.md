@@ -6,6 +6,9 @@
 az aks install-cli
 az aks get-credentials -g $rg --name $cluster
 kubectl get nodes
+kubectl get services
+kubectl get pods
+kubectl describe pod helloaks-front-c6c9db786-7fbgx
 
 ```
 
